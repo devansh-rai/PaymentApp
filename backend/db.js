@@ -1,11 +1,6 @@
 const mongoose = require('mongoose');
-// const MONGO_URI = require('.env');
-// const dotenv = require('dotenv');
 
-// dotenv.config();
-// console.log(process);
-// const MONGO_URI = env.MONGO_URI;
-const MONGO_URI = "mongodb+srv://devansh_rai:anupamrai@cluster0.hlgzxch.mongodb.net/Paytm";
+const MONGO_URI = "";
 
 const mongoClient = async()=>{
     await mongoose.connect(MONGO_URI);
